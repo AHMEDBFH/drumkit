@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #372a72;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+  margin-top: 5%;
+}
+
+.set {
+  margin: 15% auto;
+}
+
+.game-over {
+  background-color: #372a72;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.drum {
+  display: inline-block;
+  border: 0.5rem solid #404b69;
+  font-size: 3rem;
+  border-radius: 1.3rem;
+  margin: 1rem;
+  width: 11rem;
+  height: 8rem;
+  color: rgb(255, 0, 0);
+}
+
+.b {
+  background-image: url("images/boom.jpg");
+  background-size: cover;
+}
+.c {
+  background-image: url("images/clap.jpg");
+  background-size: cover;
+}
+.h {
+  background-image: url("images/hithat.jpg");
+  background-size: cover;
+}
+.k {
+  background-image: url("images/kick.jpg");
+  background-size: cover;
+}
+.o {
+  background-image: url("images/openhat.jpg");
+  background-size: cover;
+}
+.r {
+  background-image: url("images/ride.jpg");
+  background-size: cover;
+}
+.s {
+  background-image: url("images/snare.jpg");
+  background-size: cover;
+}
+.x {
+  background-image: url("images/tink.jpg");
+  background-size: cover;
+}
+.z {
+  background-image: url("images/tom.jpg");
+  background-size: cover;
+}
