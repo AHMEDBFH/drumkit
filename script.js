@@ -1,5 +1,5 @@
 "use strict";
-//trying to use loop to loop the button number and to add that an evenlistener to capture the click
+//using for loop to loop the button numbers and to add that an evenlistener to capture the click
 for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     let buttonInnerHTML = this.innerHTML;
